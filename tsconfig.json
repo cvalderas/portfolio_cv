@@ -3,7 +3,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@images/*": ["public/images/*"]
+      "@images/*": ["public/images/*"],
+      "@icons/*": ["public/icons/*"],
+      "@components/*": ["src/components/*"],
+      "@files/*": ["src/files/*"]
     }
   }
 }
