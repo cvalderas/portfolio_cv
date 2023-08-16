@@ -1,0 +1,89 @@
+---
+import StockNowImage from "@images/projects/stocknow.webp";
+import TimeTrackerImage from "@images/projects/timetracker.webp";
+
+import Badge from "@components/Badge.astro";
+---
+
+<div class="m-4 mt-28">
+  <h2 class="mb-8 text-3xl font-bold text-gray-900 dark:text-white">
+    Proyectos
+  </h2>
+
+  <div class="flex gap-4 flex-wrap lg:flex-nowrap">
+    <div
+      class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+    >
+      <div class="overflow-hidden">
+        <img
+          src={StockNowImage}
+          alt="StockNow"
+          class="rounded-t-lg duration-300 ease-in-out cursor-pointer transition-all transform hover:scale-110"
+        />
+      </div>
+      <div class="p-5 flex flex-col gap-3">
+        <h5
+          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          StockNow
+        </h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          StockNow es una aplicación web que te permite controlar el inventario
+          de tu bodega.
+
+          <div class="flex gap-2 flex-wrap">
+            <Badge label="PHP" />
+            <Badge label="Laravel" />
+            <Badge label="TypeScript" />
+            <Badge label="Angular" />
+            <Badge label="MySQL" />
+            <Badge label="HTML" />
+            <Badge label="CSS" />
+            <Badge label="Tailwind css" />
+            <Badge label="Angular" />
+            <Badge label="Git" />
+            <Badge label="Github" />
+          </div>
+        </p>
+      </div>
+    </div>
+    <div class="flex-grow">
+      <div
+        class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <div class="overflow-hidden">
+          <img
+            src={TimeTrackerImage}
+            alt="Timetracker"
+            class="rounded-t-lg duration-300 ease-in-out cursor-pointer transition-all transform hover:scale-110"
+          />
+        </div>
+        <div class="p-5 flex flex-col gap-3">
+          <h5
+            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            TimeTracker
+          </h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            TimeTracker es una aplicación web que te permite controlar el tiempo
+            que dedicas a tus proyectos.
+
+            <div class="flex gap-2 flex-wrap">
+              <Badge label="PHP" />
+              <Badge label="Laravel" />
+              <Badge label="TypeScript" />
+              <Badge label="Angular" />
+              <Badge label="MySQL" />
+              <Badge label="HTML" />
+              <Badge label="CSS" />
+              <Badge label="Tailwind css" />
+              <Badge label="Angular" />
+              <Badge label="Git" />
+              <Badge label="Github" />
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
