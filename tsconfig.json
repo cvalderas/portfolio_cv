@@ -6,7 +6,7 @@
       "@images/*": ["public/images/*"],
       "@icons/*": ["public/icons/*"],
       "@components/*": ["src/components/*"],
-      "@files/*": ["src/files/*"]
+      "@files/*": ["public/files/*"]
     }
   }
 }
